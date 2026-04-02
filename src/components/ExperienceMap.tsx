@@ -15,8 +15,8 @@ const ExperienceMap: React.FC = () => {
         'hkust-humanities': ['python', 'sql', 'office', 'report'],
         'just-b': ['product', 'pitching', 'social'],
         'tedx': ['public', 'collaboration', 'social'],
-        'pwc': ['process', 'pitching', 'report'],
-        'hkgcc': ['negotiation', 'pitching', 'product']
+        'pwc': ['process', 'pitching', 'report', 'product'],
+        'hkgcc': ['process', 'pitching', 'product', 'report']
     };
 
     const activeSkills = activeProject ? projectSkillsMap[activeProject] || [] : [];

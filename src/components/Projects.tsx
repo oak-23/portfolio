@@ -33,7 +33,7 @@ const Projects: React.FC<ProjectListProps> = ({ activeProject, setActiveProject 
             title: "Strategic Problem Solving",
             items: [
                 { id: 'pwc', title: 'PwC ESG Case Competition', desc: 'Developed strategies for Giordano' },
-                { id: 'hkgcc', title: 'HKGCC Pitch', desc: 'Developed strategies for Ocean Park' }
+                { id: 'hkgcc', title: 'HKGCC Business Case Competition', desc: 'Developed strategies for Ocean Park' }
             ]
         }
     ];
