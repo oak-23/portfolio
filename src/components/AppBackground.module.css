@@ -1,0 +1,102 @@
+.appBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    background-color: var(--color-bg);
+}
+
+.svgBg {
+    width: 100%;
+    height: 100%;
+}
+
+.traceLine {
+    fill: none;
+    stroke: var(--color-trace);
+    stroke-width: 2;
+    opacity: 0.5;
+}
+
+.traceLineActive {
+    fill: none;
+    stroke: url(#globalGlow);
+    stroke-width: 3;
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    animation: traceDraw 12s infinite linear alternate;
+}
+
+.traceLineActiveAlt {
+    fill: none;
+    stroke: url(#globalGlow);
+    stroke-width: 3;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: traceDrawAlt 9s infinite linear alternate-reverse;
+}
+
+.node {
+    fill: var(--color-surface-solid);
+    stroke: var(--color-trace);
+    stroke-width: 3;
+}
+
+.nodeGlow {
+    fill: var(--color-accent);
+    filter: drop-shadow(0 0 12px var(--color-accent));
+    animation: pulse 4s infinite alternate ease-in-out;
+}
+
+.nodeGlowAlt {
+    fill: var(--color-accent-alt);
+    filter: drop-shadow(0 0 12px var(--color-accent-alt));
+    animation: pulseAlt 3s infinite alternate ease-in-out;
+}
+
+@keyframes traceDraw {
+    0% {
+        stroke-dashoffset: 4000;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes traceDrawAlt {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulseAlt {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.3);
+    }
+}

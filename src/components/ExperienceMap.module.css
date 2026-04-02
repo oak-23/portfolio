@@ -1,0 +1,50 @@
+.experienceMap {
+    position: relative;
+    background-color: var(--bg-exp);
+    border-top: 1px solid var(--color-trace);
+    border-bottom: 1px solid var(--color-trace);
+}
+
+.mapContainer {
+    position: relative;
+    z-index: 2;
+    /* above circuit overlay */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
+
+.columnSkills {
+    align-self: start;
+    position: sticky;
+    top: 80px;
+    padding-right: 1rem;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sectionTitle::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--color-accent);
+}
+
+@media (max-width: 992px) {
+    .mapContainer {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .columnSkills {
+        position: relative;
+        top: 0;
+    }
+}

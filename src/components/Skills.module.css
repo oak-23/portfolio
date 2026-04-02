@@ -1,0 +1,84 @@
+.skillsMatrix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2rem;
+}
+
+.categoryTitle {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    border-bottom: 1px solid var(--color-trace);
+    padding-bottom: 0.5rem;
+}
+
+.skillList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.traceLine {
+    width: 20px;
+    height: 1px;
+    background-color: var(--color-trace);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.traceLine::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-trace);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.skillName {
+    transition: color 0.3s ease;
+}
+
+.skillItem.active {
+    transform: translateX(5px);
+}
+
+.skillItem.active .traceLine {
+    background-color: var(--color-accent-alt);
+    width: 30px;
+    box-shadow: 0 0 10px rgba(184, 255, 0, 0.5);
+}
+
+.skillItem.active .traceLine::before {
+    background-color: var(--color-accent-alt);
+    box-shadow: 0 0 10px rgba(184, 255, 0, 0.8);
+}
+
+.skillItem.active .skillName {
+    color: var(--color-accent-alt);
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .skillsMatrix {
+        grid-template-columns: 1fr;
+    }
+}

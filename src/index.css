@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Outfit:wght@400;600;800&display=swap');
+
+:root {
+  --color-bg: #111A22;
+  /* Deep Navy/Charcoal */
+  --color-surface: rgba(30, 45, 61, 0.7);
+  /* Deep surface, semi-transparent for crisp overlay */
+  --color-surface-solid: #1E2D3D;
+  --color-text: #E0E6ED;
+  --color-text-muted: #8B9BB4;
+  --color-accent: #00F0FF;
+  /* Electric Blue */
+  --color-accent-alt: #B8FF00;
+  /* Cyber Lime */
+  --color-trace: #2A3B4C;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  --bg-edu: rgba(16, 26, 38, 0.85);
+  --bg-exp: rgba(22, 34, 48, 0.75);
+  --bg-extra: rgba(26, 40, 56, 0.85);
+  --bg-lang: rgba(20, 30, 42, 0.70);
+  --bg-acco: rgba(30, 45, 61, 0.80);
+  --bg-comp: rgba(14, 22, 30, 0.90);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent-alt);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.section {
+  padding: 6rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-family: var(--font-display);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.6);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: var(--color-accent-alt);
+  color: var(--color-accent-alt);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-accent-alt);
+  color: var(--color-bg);
+  box-shadow: 0 0 20px rgba(184, 255, 0, 0.4);
+}

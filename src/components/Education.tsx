@@ -1,0 +1,24 @@
+import React from 'react';
+import styles from './Sections.module.css';
+
+const Education: React.FC = () => {
+    return (
+        <section id="education" className={`section ${styles.sectionBase}`} style={{ backgroundColor: 'var(--bg-edu)' }}>
+            <div className={`container ${styles.container}`}>
+                <h2 className={styles.sectionTitle}>Education</h2>
+
+                <div className={styles.grid} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto' }}>
+                    <div className={styles.card}>
+                        <div className={styles.iconNode}>&#x25B2;</div>
+                        <div className={styles.content}>
+                            <h4 className={styles.title}>BEng in Computer Engineering</h4>
+                            <p className={styles.subtitle}>Hong Kong University of Science and Technology (HKUST)</p>
+                            <p className={styles.subtitle} style={{ marginTop: '0.8rem', color: 'var(--color-accent)' }}>Sep 2025 &ndash; Present</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+export default Education;
