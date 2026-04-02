@@ -33,13 +33,13 @@
 
 .links {
     display: flex;
-    gap: 2rem;
+    gap: 1.25rem;
     align-items: center;
 }
 
 .links a {
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -61,7 +61,7 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .hamburger {
         display: flex;
     }
