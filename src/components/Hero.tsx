@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className={`container ${styles.heroContainer}`}>
         <div className={styles.content}>
           <h1 className={styles.title}>
-            <span className={styles.trace}>&#x2514;</span> Oak Soe Oo
+            Oak Soe Oo
           </h1>
           <div className={styles.subtitleBox}>
             <p className={styles.subtitle}>

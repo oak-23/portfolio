@@ -3,35 +3,42 @@ import styles from './Navbar.module.css';
 
 const Navbar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
+            setScrolled(window.scrollY > 50);
         };
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const toggleMenu = () => setMenuOpen(!menuOpen);
+    const closeMenu = () => setMenuOpen(false);
+
     return (
         <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
             <div className={`container ${styles.navContainer}`}>
                 <div className={styles.logo}>
-                    <a href="#hero" style={{ color: 'inherit', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
-                        <span className={styles.trace}>&#x2514;</span> OSO
+                    <a href="#hero" style={{ color: 'inherit', display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                        OSO
                     </a>
                 </div>
-                <div className={styles.links}>
-                    <a href="#hero">Profile</a>
-                    <a href="#education">Education</a>
-                    <a href="#experience">Integrated Experience</a>
-                    <a href="#extracurriculars">Extracurriculars</a>
-                    <a href="#languages">Languages</a>
-                    <a href="#accolades">Accolades</a>
-                    <a href="#competitions">Competition Awards</a>
+
+                <div className={`${styles.hamburger} ${menuOpen ? styles.open : ''}`} onClick={toggleMenu}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
+                    <a href="#hero" onClick={closeMenu}>Profile</a>
+                    <a href="#education" onClick={closeMenu}>Education</a>
+                    <a href="#experience" onClick={closeMenu}>Integrated Experience</a>
+                    <a href="#extracurriculars" onClick={closeMenu}>Extracurriculars</a>
+                    <a href="#languages" onClick={closeMenu}>Languages</a>
+                    <a href="#accolades" onClick={closeMenu}>Accolades</a>
+                    <a href="#competitions" onClick={closeMenu}>Competition Awards</a>
                 </div>
             </div>
         </nav>
