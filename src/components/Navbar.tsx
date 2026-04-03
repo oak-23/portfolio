@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
-            <div className={`container ${styles.navContainer}`}>
+            <div className={styles.navContainer}>
                 <div className={styles.logo}>
                     <a href="#hero" style={{ color: 'inherit', display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
                         OSO
