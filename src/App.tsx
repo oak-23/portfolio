@@ -21,8 +21,8 @@ function App() {
         <div id="experience">
           <ExperienceMap />
         </div>
-        <Extracurriculars />
         <Languages />
+        <Extracurriculars />
         <div id="accolades">
           <Accolades />
         </div>
