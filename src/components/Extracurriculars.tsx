@@ -3,7 +3,7 @@ import styles from './Sections.module.css';
 
 const Extracurriculars: React.FC = () => {
     return (
-        <section id="extracurriculars" className={`section ${styles.sectionBase}`} style={{ backgroundColor: 'var(--bg-extra)' }}>
+        <section id="extracurriculars" className={`section ${styles.sectionBase}`} style={{ backgroundColor: 'var(--bg-lang)' }}>
             <div className={`container ${styles.container}`}>
                 <h2 className={styles.sectionTitle}>Extracurriculars</h2>
 

@@ -3,7 +3,7 @@ import styles from './Sections.module.css';
 
 const Languages: React.FC = () => {
     return (
-        <section id="languages" className={`section ${styles.sectionBase}`} style={{ backgroundColor: 'var(--bg-lang)' }}>
+        <section id="languages" className={`section ${styles.sectionBase}`} style={{ backgroundColor: 'var(--bg-extra)' }}>
             <div className={`container ${styles.container}`}>
                 <h2 className={styles.sectionTitle}>Language Proficiency</h2>
 
