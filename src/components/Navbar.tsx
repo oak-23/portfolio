@@ -21,7 +21,8 @@ const Navbar: React.FC = () => {
             <div className={styles.navContainer}>
                 <div className={styles.logo}>
                     <a href="#hero" style={{ color: 'inherit', display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-                        OSO
+                        <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="OSO" style={{ height: '40px', width: '40px' }} />
+                        <span style={{ marginLeft: '12px' }}>OSO</span>
                     </a>
                 </div>
 

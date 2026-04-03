@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="techEcoGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <path d="M100,20 C55.8,20 20,55.8 20,100 C20,144.2 55.8,180 100,180 C138.5,180 170.7,152.8 178,116"
+        fill="none" stroke="#D1D5DB" stroke-width="16" stroke-linecap="round" />
+
+  <path d="M100,180 L100,100 L70,70"
+        fill="none" stroke="#D1D5DB" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+
+  <path d="M100,100 L140,60"
+        fill="none" stroke="url(#techEcoGrad)" stroke-width="16" stroke-linecap="round" />
+
+  <path d="M180,60 L180,20 L140,20"
+        fill="none" stroke="url(#techEcoGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M130,70 L180,20"
+        fill="none" stroke="url(#techEcoGrad)" stroke-width="16" stroke-linecap="round" />
+
+  <circle cx="70" cy="70" r="12" fill="url(#techEcoGrad)" />
+  <circle cx="100" cy="100" r="16" fill="#D1D5DB" />
+</svg>
