@@ -42,10 +42,16 @@
 }
 
 .links a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: var(--color-accent);
 }
 
 .hamburger {
@@ -65,7 +71,7 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1230px) {
     .hamburger {
         display: flex;
     }

@@ -58,3 +58,47 @@
         grid-template-columns: 1fr;
     }
 }
+
+.educationCardLayout {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.educationImage {
+    flex: 0 0 220px;
+}
+
+.educationImgElement {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.educationContent {
+    flex: 1;
+    min-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .educationCardLayout {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .educationImage {
+        flex: 0 0 auto;
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .educationContent {
+        min-width: 100%;
+    }
+}
