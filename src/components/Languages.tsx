@@ -9,35 +9,30 @@ const Languages: React.FC = () => {
 
                 <div className={styles.grid}>
                     <div className={styles.card}>
-                        <div className={styles.iconNode}>&#x2514;</div>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Burmese</h4>
                             <p className={styles.subtitle}>Native</p>
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.iconNode}>&#x2514;</div>
                         <div className={styles.content}>
                             <h4 className={styles.title}>English</h4>
                             <p className={styles.subtitle}>Fluent</p>
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.iconNode}>&#x2514;</div>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Japanese</h4>
                             <p className={styles.subtitle}>Conversational</p>
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.iconNode}>&#x2514;</div>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Korean</h4>
                             <p className={styles.subtitle}>Conversational</p>
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.iconNode}>&#x2514;</div>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Mandarin</h4>
                             <p className={styles.subtitle}>Basic</p>
