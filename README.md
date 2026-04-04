@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# Personal portfolio website
 
-Personal portfolio website
+Built using React + TypeScript + Vite.
