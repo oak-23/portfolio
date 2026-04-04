@@ -9,14 +9,14 @@ const ExperienceMap: React.FC = () => {
 
     // Mapping projects to the skills they use
     const projectSkillsMap: Record<string, string[]> = {
-        'exposai': ['cpp', 'python', 'aws', 'product'],
-        'igem': ['html', 'python', 'digital', 'collaboration'],
-        'iot': ['cpp', '3d', 'process', 'report'],
-        'hkust-humanities': ['python', 'sql', 'office', 'report'],
-        'just-b': ['product', 'pitching', 'social'],
+        'exposai': ['cpp', 'python', 'sql', 'aws', 'product', 'collaboration', 'public'],
+        'igem': ['html', 'python', 'digital', 'collaboration', 'public'],
+        'iot': ['cpp', '3d', 'process', 'report', 'collaboration', 'public', 'product'],
+        'hkust-humanities': ['cpp', 'python', 'sql', 'aws', 'product', 'collaboration', 'office', 'report', 'collaboration'],
+        'just-b': ['product', 'pitching', 'social', 'public'],
         'tedx': ['public', 'collaboration', 'social'],
-        'pwc': ['process', 'pitching', 'report', 'product'],
-        'hkgcc': ['process', 'pitching', 'product', 'report']
+        'pwc': ['process', 'pitching', 'report', 'product', 'public'],
+        'hkgcc': ['process', 'pitching', 'product', 'report', 'public']
     };
 
     const activeSkills = activeProject ? projectSkillsMap[activeProject] || [] : [];
