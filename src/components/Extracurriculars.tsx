@@ -26,6 +26,12 @@ const Extracurriculars: React.FC = () => {
                             <p className={styles.subtitle}>Advocating and educating peers on cutting-edge Microsoft technologies.</p>
                         </div>
                     </div>
+                    <div className={styles.card}>
+                        <div className={styles.content}>
+                            <h4 className={styles.title}>STEM+E Competition Program Management Officer</h4>
+                            <p className={styles.subtitle}>Architecting and executing the software backend of the STEM+E Competition.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
