@@ -13,14 +13,14 @@ const Accolades: React.FC = () => {
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>HKSAR Government Belt & Road Scholarship</h4>
-                                <p className={styles.subtitle}>Full scholarship awarded to outstanding international students.</p>
+                                <p className={styles.subtitle}>Highly selective full scholarship awarded to outstanding international students.</p>
                                 <p className={styles.highlight}>Value: 925,000 HKD</p>
                             </div>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>Entrance Admission Scholarship</h4>
-                                <p className={styles.subtitle}>Full scholarship awarded by HKUST for outstanding academic merit.</p>
+                                <p className={styles.subtitle}>Full-ride scholarship awarded by HKUST for outstanding academic merit.</p>
                                 <p className={styles.highlight}>Value: 1,225,000 HKD</p>
                             </div>
                         </div>

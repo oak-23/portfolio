@@ -11,7 +11,7 @@ const Extracurriculars: React.FC = () => {
                     <div className={styles.card}>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Executive Director (Probationary)</h4>
-                            <p className={styles.subtitle}>ECE MakerSpace (UG Electronics Lab)</p>
+                            <p className={styles.subtitle}>On the way to leading ECE MakerSpace (UG Electronics Lab)</p>
                         </div>
                     </div>
                     <div className={styles.card}>
@@ -28,7 +28,7 @@ const Extracurriculars: React.FC = () => {
                     </div>
                     <div className={styles.card}>
                         <div className={styles.content}>
-                            <h4 className={styles.title}>Program Management Officer</h4>
+                            <h4 className={styles.title}>Management Officer</h4>
                             <p className={styles.subtitle}>Architecting and executing the software backend of the STEM+E Competition.</p>
                         </div>
                     </div>
