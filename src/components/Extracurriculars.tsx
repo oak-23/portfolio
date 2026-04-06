@@ -7,7 +7,7 @@ const Extracurriculars: React.FC = () => {
             <div className={`container ${styles.container}`}>
                 <h2 className={styles.sectionTitle}>Extracurriculars</h2>
 
-                <div className={styles.grid}>
+                <div className={styles.grid3}>
                     <div className={styles.card}>
                         <div className={styles.content}>
                             <h4 className={styles.title}>Executive Director (Probationary)</h4>

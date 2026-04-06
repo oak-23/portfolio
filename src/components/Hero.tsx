@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className={styles.scrollIndicator}>
-        <span className={styles.scrollText}>Initialize sequence</span>
+        <span className={styles.scrollText}>Initialise sequence</span>
         <div className={styles.scrollArrow}></div>
       </div>
     </section>

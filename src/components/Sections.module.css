@@ -16,6 +16,12 @@
     gap: 2rem;
 }
 
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 .card {
     padding: 2.5rem;
     background-color: var(--color-surface);
@@ -53,7 +59,7 @@
 }
 
 @media (max-width: 900px) {
-    .grid {
+    .grid, .grid3 {
         grid-template-columns: 1fr;
     }
 }

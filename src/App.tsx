@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Education from './components/Education';
 import ExperienceMap from './components/ExperienceMap';
+import TechStack from './components/TechStack';
 import Extracurriculars from './components/Extracurriculars';
 import Languages from './components/Languages';
 import Accolades from './components/Accolades';
@@ -21,6 +22,7 @@ function App() {
         <div id="experience">
           <ExperienceMap />
         </div>
+        <TechStack />
         <Languages />
         <Extracurriculars />
         <div id="accolades">
