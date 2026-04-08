@@ -9,11 +9,13 @@ import Accolades from './components/Accolades';
 import Competitions from './components/Competitions';
 import Footer from './components/Footer';
 import AppBackground from './components/AppBackground';
+import CustomCursor from './components/CustomCursor';
 import './App.css';
 
 function App() {
   return (
     <div className="app-wrapper">
+      <CustomCursor />
       <AppBackground />
       <Navbar />
       <main style={{ position: 'relative', zIndex: 1 }}>

@@ -29,6 +29,12 @@ html {
   scroll-padding-top: 50px;
 }
 
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

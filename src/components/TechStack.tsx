@@ -21,19 +21,19 @@ const TechStack: React.FC = () => {
                             <h3 className={styles.categoryTitle}>Languages</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <SiPython className={styles.techIcon} /> Python
+                                    <SiPython color="#3776AB" className={styles.techIcon} /> Python
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiJavascript className={styles.techIcon} /> JavaScript
+                                    <SiJavascript color="#F7DF1E" className={styles.techIcon} /> JavaScript
                                 </li>
                                 <li className={styles.techItem}>
-                                    <TbSql className={styles.techIcon} /> SQL
+                                    <TbSql color="#336791" className={styles.techIcon} /> SQL
                                 </li>
                                 <li className={styles.techItem}>
-                                    <FaJava className={styles.techIcon} /> Java
+                                    <FaJava color="#ED8B00" className={styles.techIcon} /> Java
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiHtml5 className={styles.techIcon} /> HTML/CSS
+                                    <SiHtml5 color="#E34F26" className={styles.techIcon} /> HTML/CSS
                                 </li>
                             </ul>
                         </div>
@@ -43,22 +43,22 @@ const TechStack: React.FC = () => {
                             <h3 className={styles.categoryTitle}>Frameworks/Libs</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <SiReact className={styles.techIcon} /> React / Native
+                                    <SiReact color="#61DAFB" className={styles.techIcon} /> React / Native
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiFastapi className={styles.techIcon} /> FastAPI
+                                    <SiFastapi color="#009688" className={styles.techIcon} /> FastAPI
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiNodedotjs className={styles.techIcon} /> Node.js
+                                    <SiNodedotjs color="#339933" className={styles.techIcon} /> Node.js
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiFlask className={styles.techIcon} /> Flask
+                                    <SiFlask color="#FFFFFF" className={styles.techIcon} /> Flask
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiTailwindcss className={styles.techIcon} /> Tailwind CSS
+                                    <SiTailwindcss color="#06B6D4" className={styles.techIcon} /> Tailwind CSS
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiNumpy className={styles.techIcon} /> NumPy
+                                    <SiNumpy color="#4DABCF" className={styles.techIcon} /> NumPy
                                 </li>
                             </ul>
                         </div>
@@ -68,10 +68,10 @@ const TechStack: React.FC = () => {
                             <h3 className={styles.categoryTitle}>Databases</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <SiPostgresql className={styles.techIcon} /> PostgreSQL
+                                    <SiPostgresql color="#336791" className={styles.techIcon} /> PostgreSQL
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiMysql className={styles.techIcon} /> MySQL
+                                    <SiMysql color="#4479A1" className={styles.techIcon} /> MySQL
                                 </li>
                             </ul>
                         </div>
@@ -81,19 +81,19 @@ const TechStack: React.FC = () => {
                             <h3 className={styles.categoryTitle}>Tools & Cloud</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <FaGitAlt className={styles.techIcon} /> Git
+                                    <FaGitAlt color="#F05032" className={styles.techIcon} /> Git
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiDocker className={styles.techIcon} /> Docker
+                                    <SiDocker color="#2496ED" className={styles.techIcon} /> Docker
                                 </li>
                                 <li className={styles.techItem}>
-                                    <FaAws className={styles.techIcon} /> AWS
+                                    <FaAws color="#FF9900" className={styles.techIcon} /> AWS
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiNginx className={styles.techIcon} /> Nginx
+                                    <SiNginx color="#009639" className={styles.techIcon} /> Nginx
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiGithubactions className={styles.techIcon} /> CI/CD
+                                    <SiGithubactions color="#2088FF" className={styles.techIcon} /> CI/CD
                                 </li>
                             </ul>
                         </div>
