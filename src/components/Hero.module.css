@@ -86,6 +86,7 @@
 .secondaryBtn {
     display: inline-block;
     padding: 0.8rem 2rem;
+    text-align: center;
     background-color: transparent;
     color: var(--color-accent-alt);
     text-decoration: none;
