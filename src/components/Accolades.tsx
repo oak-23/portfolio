@@ -32,14 +32,21 @@ const Accolades: React.FC = () => {
                     <div className={styles.grid}>
                         <div className={styles.card}>
                             <div className={styles.content}>
-                                <h4 className={styles.title}>Myanmar Academic Accolades</h4>
-                                <p className={styles.subtitle}>Top performance in A-levels nationally.</p>
+                                <h4 className={styles.title}>GCE International A-Levels</h4>
+                                <p className={styles.subtitle}>Self-studied 5 A-Levels in 8 months, earning 5 A* and 1 A.</p>
+                                <p className={styles.highlight}>Achieved by fewer than 0.01% of candidates worldwide</p>
                             </div>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>International Youth Maths Olympiad</h4>
-                                <p className={styles.subtitle}>Recognized excellence in competitive mathematics.</p>
+                                <p className={styles.subtitle}>Highest score in Myanmar, Dec 2021.</p>
+                            </div>
+                        </div>
+                        <div className={styles.card}>
+                            <div className={styles.content}>
+                                <h4 className={styles.title}>Online Myanmar Mathematics Olympiad</h4>
+                                <p className={styles.subtitle}>Gold Medal, Dec 2021.</p>
                             </div>
                         </div>
                     </div>

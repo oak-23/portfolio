@@ -9,12 +9,13 @@ const ExperienceMap: React.FC = () => {
 
     // Mapping projects to the skills they use
     const projectSkillsMap: Record<string, string[]> = {
-        'exposai': ['cpp', 'python', 'sql', 'aws', 'product', 'collaboration', 'public'],
-        'igem': ['html', 'python', 'digital', 'collaboration', 'public'],
-        'iot': ['cpp', '3d', 'process', 'report', 'collaboration', 'public', 'product'],
-        'hkust-humanities': ['cpp', 'python', 'sql', 'aws', 'product', 'collaboration', 'office', 'report', 'collaboration'],
-        'just-b': ['product', 'pitching', 'social', 'public'],
-        'tedx': ['public', 'collaboration', 'social'],
+        'backtest': ['python', 'cpp', 'sql', 'numpy', 'backtest', 'stats', 'docker', 'cicd'],
+        'internal-ops': ['python', 'sql', 'ts', 'react', 'fastapi', 'docker', 'product', 'process', 'collaboration'],
+        'auth': ['python', 'sql', 'fastapi', 'docker', 'cicd', 'process'],
+        'humanities-nlp': ['python', 'nlp', 'llm', 'numpy', 'stats', 'report', 'collaboration'],
+        'igem-ml': ['python', 'dl', 'nlp', 'numpy', 'ts', 'react', 'collaboration'],
+        'exposai': ['python', 'ts', 'react', 'llm', 'docker', 'product', 'collaboration'],
+        'cops': ['cpp', 'process', 'product', 'report', 'collaboration', 'public'],
         'pwc': ['process', 'pitching', 'report', 'product', 'public'],
         'hkgcc': ['process', 'pitching', 'product', 'report', 'public']
     };
@@ -27,7 +28,7 @@ const ExperienceMap: React.FC = () => {
 
             <div className={`container ${styles.mapContainer}`}>
                 <div className={styles.columnProjects}>
-                    <h2 className={styles.sectionTitle}>Integrated Experience</h2>
+                    <h2 className={styles.sectionTitle}>Selected Work</h2>
                     <Projects activeProject={activeProject} setActiveProject={setActiveProject} />
                 </div>
 

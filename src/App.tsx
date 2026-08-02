@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Education from './components/Education';
+import Experience from './components/Experience';
 import ExperienceMap from './components/ExperienceMap';
 import TechStack from './components/TechStack';
 import Extracurriculars from './components/Extracurriculars';
@@ -21,7 +22,8 @@ function App() {
       <main style={{ position: 'relative', zIndex: 1 }}>
         <Hero />
         <Education />
-        <div id="experience">
+        <Experience />
+        <div id="work">
           <ExperienceMap />
         </div>
         <TechStack />

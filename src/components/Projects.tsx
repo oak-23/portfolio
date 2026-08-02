@@ -9,24 +9,25 @@ interface ProjectListProps {
 const Projects: React.FC<ProjectListProps> = ({ activeProject, setActiveProject }) => {
     const categories = [
         {
-            title: "Engineering & Innovation",
+            title: "Quantitative & Backend Systems",
             items: [
-                { id: 'exposai', title: 'ExposAI', desc: 'Blockchain & AI image authenticator' },
-                { id: 'igem', title: 'iGEM HKUST 2026', desc: 'Genetic circuit modeling & wiki dev' },
-                { id: 'iot', title: 'IoT Water Purifier (COPS)', desc: 'Global Sustainability Regional Finalist' },
+                { id: 'backtest', title: 'Smart-Beta Strategy Pipeline', desc: 'Automated index strategies from creation through backtesting to deployment (Rivermap)' },
+                { id: 'internal-ops', title: 'Internal Management System', desc: 'Replaced spreadsheet-and-email workflows; used daily by 18 staff firm-wide' },
+                { id: 'auth', title: 'Centralized Auth Service', desc: 'Single authentication & authorization layer across 4+ internal applications' },
             ]
         },
         {
-            title: "Data & Humanities",
+            title: "AI, ML & Data",
             items: [
-                { id: 'hkust-humanities', title: 'AI & Data Analytics Engineer', desc: 'HKUST Humanities. Automated qualitative analysis & quantitative visualizations.' }
+                { id: 'humanities-nlp', title: 'NLP Thematic Analysis Pipeline', desc: 'LLM tooling over hundreds of qualitative and historical documents (HKUST Humanities)' },
+                { id: 'igem-ml', title: 'Genome Mining Toolkit', desc: 'Transformers and CNNs mining a non-model bacterium genome under data constraints (iGEM)' },
             ]
         },
         {
-            title: "Entrepreneurship & Leadership",
+            title: "Hardware & Hackathons",
             items: [
-                { id: 'just-b', title: 'Just B!', desc: 'Hyper-local discovery application development & business pitches' },
-                { id: 'tedx', title: 'TEDx & Fundraiser Organizer', desc: 'Event coordination and outreach' }
+                { id: 'exposai', title: 'ExposAI', desc: 'On-chain image authenticity registry with multimodal synthetic-media detection on AWS Bedrock' },
+                { id: 'cops', title: 'COPS', desc: 'Arduino IoT prototype adjusting filtration to measured water conditions; 2nd Prize, Global Sustainability Challenge' },
             ]
         },
         {

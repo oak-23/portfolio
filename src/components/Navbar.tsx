@@ -35,11 +35,12 @@ const Navbar: React.FC = () => {
                 <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
                     <a href="#hero" onClick={closeMenu}>Profile</a>
                     <a href="#education" onClick={closeMenu}>Education</a>
-                    <a href="#experience" onClick={closeMenu}>Integrated Experience</a>
+                    <a href="#experience" onClick={closeMenu}>Experience</a>
+                    <a href="#work" onClick={closeMenu}>Selected Work</a>
                     <a href="#extracurriculars" onClick={closeMenu}>Extracurriculars</a>
                     <a href="#languages" onClick={closeMenu}>Languages</a>
                     <a href="#accolades" onClick={closeMenu}>Accolades</a>
-                    <a href="#competitions" onClick={closeMenu}>Competition Awards</a>
+                    <a href="#competitions" onClick={closeMenu}>Awards</a>
                 </div>
             </div>
         </nav>

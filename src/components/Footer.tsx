@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                 <div className={styles.content}>
                     <div className={styles.brand}>
                         <h2 className={styles.name}>Oak Soe Oo</h2>
-                        <p className={styles.desc}>Multidisciplinary problem solver bridging engineering, business, and humanity.</p>
+                        <p className={styles.desc}>Software engineer and Computer Engineering &amp; Business undergraduate at HKUST.</p>
                     </div>
 
                     <div className={styles.contact}>

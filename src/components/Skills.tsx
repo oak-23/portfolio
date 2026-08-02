@@ -8,37 +8,38 @@ interface SkillsProps {
 const Skills: React.FC<SkillsProps> = ({ activeSkills }) => {
     const categories = [
         {
-            title: "Coding",
+            title: "Programming",
             items: [
-                { id: 'cpp', name: 'C++' },
                 { id: 'python', name: 'Python' },
-                { id: 'html', name: 'HTML/CSS/JS' },
+                { id: 'cpp', name: 'C++' },
                 { id: 'sql', name: 'SQL' },
-                { id: 'aws', name: 'AWS Bedrock' },
-                { id: 'fastapi', name: 'FastAPI' },
+                { id: 'ts', name: 'TypeScript / JavaScript' },
+                { id: 'react', name: 'React / React Native' },
+                { id: 'fastapi', name: 'FastAPI / Flask / Node.js' },
             ]
         },
         {
-            title: "Technical",
+            title: "Data & ML",
             items: [
+                { id: 'nlp', name: 'NLP' },
+                { id: 'llm', name: 'LLM Tooling' },
+                { id: 'dl', name: 'Deep Learning (Transformers, CNNs)' },
+                { id: 'numpy', name: 'NumPy' },
+                { id: 'backtest', name: 'Backtesting' },
+                { id: 'stats', name: 'Statistical Analysis' },
+            ]
+        },
+        {
+            title: "Engineering & Professional",
+            items: [
+                { id: 'docker', name: 'Docker / AWS' },
+                { id: 'cicd', name: 'Git & CI/CD' },
                 { id: 'product', name: 'Product Ideation & Development' },
-                { id: 'process', name: 'Process Design' },
-                { id: '3d', name: '3D Design & Printing' },
-                { id: 'office', name: 'Office/Database' },
-                { id: 'digital', name: 'Digital Design' },
-                { id: 'video', name: 'Video Editing' },
-            ]
-        },
-        {
-            title: "Marketing & Professional",
-            items: [
-                { id: 'social', name: 'Social Media Strategy' },
-                { id: 'content', name: 'Content Creation' },
-                { id: 'public', name: 'Public Speaking' },
-                { id: 'pitching', name: 'Business Pitching' },
-                { id: 'negotiation', name: 'Business Negotiation' },
+                { id: 'process', name: 'System & Process Design' },
                 { id: 'collaboration', name: 'Cross-functional Collaboration' },
                 { id: 'report', name: 'Technical Report Writing' },
+                { id: 'public', name: 'Public Speaking' },
+                { id: 'pitching', name: 'Business Pitching' },
             ]
         }
     ];

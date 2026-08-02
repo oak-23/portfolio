@@ -47,12 +47,12 @@ const Hero: React.FC = () => {
           </h1>
           <div className={styles.subtitleBox}>
             <p className={styles.subtitle}>
-              Multidisciplinary engineer bridging the gap between cutting-edge technology,
-              strategic business development, and deep sustainability.
+              Computer Engineering &amp; Business undergraduate at HKUST. Software engineer across
+              production systems, backtesting pipelines, and machine learning &mdash; mostly Python and C++.
             </p>
           </div>
           <div className={styles.actions}>
-            <a href="https://linkedin.com/in/oaksoeoo" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>LinkedIn</a>
+            <a href="https://linkedin.com/in/osoo" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>LinkedIn</a>
             <a href="https://github.com/oak-23" target="_blank" rel="noopener noreferrer" className={styles.secondaryBtn}>GitHub</a>
             <a href="mailto:oaksoeoo1023@gmail.com" className={styles.secondaryBtn}>Connect with me</a>
           </div>
