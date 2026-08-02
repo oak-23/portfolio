@@ -33,7 +33,7 @@ const Accolades: React.FC = () => {
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>GCE International A-Levels</h4>
-                                <p className={styles.subtitle}>Self-studied 5 A-Levels in 8 months, earning 5 A* and 1 A.</p>
+                                <p className={styles.subtitle}>Answered 6 and earned 5 A* and 1 A; self-studied 5 A-Levels in 8 months</p>
                                 <p className={styles.highlight}>Achieved by fewer than 0.01% of candidates worldwide</p>
                             </div>
                         </div>

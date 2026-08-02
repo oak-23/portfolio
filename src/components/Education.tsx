@@ -20,14 +20,6 @@ const Education: React.FC = () => {
                             <p className={styles.subtitle} style={{ marginTop: '0.8rem', color: 'var(--color-accent)' }}>Sep 2025 &ndash; Jun 2030 (expected)</p>
                         </div>
                     </div>
-
-                    <div className={styles.card}>
-                        <div>
-                            <h4 className={styles.title}>GCE International A-Levels</h4>
-                            <p className={styles.subtitle}>Self-studied &mdash; 5 A* and 1 A, completing 5 A-Levels in 8 months.</p>
-                            <p className={styles.subtitle} style={{ marginTop: '0.8rem', color: 'var(--color-accent)' }}>2023 &ndash; 2024</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
