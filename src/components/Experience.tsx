@@ -4,7 +4,7 @@ import styles from './Sections.module.css';
 const roles = [
     {
         org: 'Rivermap Company Limited',
-        role: 'Quantitative Developer',
+        role: 'Research Analyst Intern',
         date: 'Jun 2026 – Present',
         points: [
             'Build and operate an automated pipeline taking smart-beta index strategies from creation through backtesting to deployment.',
