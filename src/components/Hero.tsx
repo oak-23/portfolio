@@ -47,8 +47,8 @@ const Hero: React.FC = () => {
           </h1>
           <div className={styles.subtitleBox}>
             <p className={styles.subtitle}>
-              Computer Engineering &amp; Business undergraduate at HKUST. Software engineer across
-              production systems, backtesting pipelines, and machine learning &mdash; mostly Python and C++.
+              Multidisciplinary engineer studying Computer Engineering &amp; Business undergraduate at HKUST.
+              Worked across hardware, software, production systems, backtesting pipelines, and machine learning.
             </p>
           </div>
           <div className={styles.actions}>
