@@ -3,13 +3,13 @@ import styles from './Sections.module.css';
 
 const roles = [
     {
-        org: 'Rivermap Company Limited',
+        org: 'Rivermap Company Limited (Hong Kong)',
         role: 'Research Analyst Intern',
-        date: 'Jun 2026 – Present',
+        date: 'Jun 2026 – Sep 2026',
         points: [
-            'Build and operate an automated pipeline taking smart-beta index strategies from creation through backtesting to deployment.',
-            'Designed and deployed an internal management system replacing spreadsheet-and-email workflows; in production, used daily by 18 staff firm-wide.',
-            "Built a centralized authentication and authorization system used across the firm's 4+ internal applications.",
+            'Design systems and database architecture, and build and operate an automated Python pipeline taking smart-beta index strategies from creation through backtesting to deployment.',
+            'Designed and deployed a full-stack internal management system (FastAPI backend, relational database) that replaced spreadsheet workflows; in production, used daily by 18 staff firm-wide.',
+            "Built a centralised authentication and authorization system for use across the firm's 4+ internal and external applications.",
         ],
     },
     {
@@ -17,25 +17,25 @@ const roles = [
         role: 'Research Assistant',
         date: 'Feb 2026 – Present',
         points: [
-            'Develop NLP pipelines and LLM-based tooling that automate thematic analysis of qualitative and historical archives totalling hundreds of documents.',
-            'Build data pipelines that turn unstructured research data into visualizations the team uses to test statistical hypotheses.',
+            'Developing NLP pipelines and custom LLM frameworks to automate the analysis of large-scale qualitative datasets, streamlining the extraction of thematic insights from historical and social archives.',
+            'Developing end-to-end data analytics workflows to transform unstructured humanities research into quantitative visualizations, enabling multidisciplinary teams to validate hypotheses through statistical modeling.',
         ],
     },
     {
-        org: 'iGEM, HKUST',
+        org: 'International Genetically Engineered Machine (iGEM), HKUST',
         role: 'Dry Lab Team Lead',
         date: 'Feb 2026 – Present',
         points: [
-            'Lead a 9-member dry-lab team; train and fine-tune transformer models and CNNs to mine a non-model bacterium genome under data constraints, producing a genetic engineering toolkit.',
-            'Selected from 100+ applicants; build and maintain the team wiki in React and TypeScript.',
+            'Lead a 9-member dry-lab team; apply machine learning to genetic engineering by training and fine-tuning transformer models, foundational models and CNNs to mine a non-model bacterium genome with data constraints.',
+            'Selected from 100+ competitors; presented the project at the Grand Jamboree in Paris 2026.',
         ],
     },
     {
-        org: 'Shun Lei Shwe Yi Co., Ltd.',
+        org: 'Shun Lei Shwe Yi Co., Ltd. (Myanmar)',
         role: 'Engineering Intern (Part-time)',
         date: 'Jan 2022 – Jun 2025',
         points: [
-            'Built and maintained data-management systems for 3 construction projects.',
+            'Built and maintained document and data-management systems for 3 construction projects.',
             'Prepared tender proposals for 3 winning contract bids.',
         ],
     },
@@ -47,7 +47,7 @@ const Experience: React.FC = () => {
             <div className={`container ${styles.container}`}>
                 <h2 className={styles.sectionTitle}>Experience</h2>
 
-                <div className={styles.grid} style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))' }}>
+                <div className={styles.grid} style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(420px, 100%), 1fr))' }}>
                     {roles.map((r) => (
                         <div key={r.org} className={styles.card}>
                             <div>

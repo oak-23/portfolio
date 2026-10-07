@@ -12,31 +12,24 @@ const Accolades: React.FC = () => {
                     <div className={styles.grid}>
                         <div className={styles.card}>
                             <div className={styles.content}>
-                                <h4 className={styles.title}>HKSAR Government Belt & Road Scholarship</h4>
+                                <h4 className={styles.title}>HKSAR Government Belt and Road Scholarship</h4>
                                 <p className={styles.subtitle}>Highly selective full scholarship awarded to outstanding international students.</p>
-                                <p className={styles.highlight}>Value: 925,000 HKD</p>
+                                <p className={styles.highlight}>Value: HK$925,000</p>
                             </div>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>Entrance Admission Scholarship</h4>
-                                <p className={styles.subtitle}>Full-ride scholarship awarded by HKUST for outstanding academic merit.</p>
-                                <p className={styles.highlight}>Value: 1,225,000 HKD</p>
+                                <p className={styles.subtitle}>Merit-based full-ride scholarship awarded by HKUST.</p>
+                                <p className={styles.highlight}>Value: HK$1,225,000</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.categorySection}>
-                    <h3 className={styles.categoryHeader}>Academic Excellence</h3>
+                    <h3 className={styles.categoryHeader}>Mathematics Olympiads</h3>
                     <div className={styles.grid}>
-                        <div className={styles.card}>
-                            <div className={styles.content}>
-                                <h4 className={styles.title}>GCE International A-Levels</h4>
-                                <p className={styles.subtitle}>Answered 6 and earned 5 A* and 1 A; self-studied 5 A-Levels in 8 months</p>
-                                <p className={styles.highlight}>Achieved by fewer than 0.01% of candidates worldwide</p>
-                            </div>
-                        </div>
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>International Youth Maths Olympiad</h4>

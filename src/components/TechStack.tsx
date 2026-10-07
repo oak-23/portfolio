@@ -5,7 +5,7 @@ import {
   SiFlask, SiNumpy, SiPostgresql, SiMysql,
   SiDocker, SiGithubactions
 } from 'react-icons/si';
-import { FaGitAlt, FaAws, FaBrain } from 'react-icons/fa';
+import { FaGitAlt, FaAws, FaBrain, FaDatabase, FaGlobe } from 'react-icons/fa';
 import { TbSql } from 'react-icons/tb';
 
 const TechStack: React.FC = () => {
@@ -16,9 +16,9 @@ const TechStack: React.FC = () => {
                     <h2 className={styles.sectionTitle}>Technology Stack</h2>
                     
                     <div className={styles.grid}>
-                        {/* Languages Section */}
+                        {/* Programming Section */}
                         <div className={styles.categoryColumn}>
-                            <h3 className={styles.categoryTitle}>Languages</h3>
+                            <h3 className={styles.categoryTitle}>Programming</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
                                     <SiPython color="#3776AB" className={styles.techIcon} /> Python
@@ -35,18 +35,15 @@ const TechStack: React.FC = () => {
                                 <li className={styles.techItem}>
                                     <SiJavascript color="#F7DF1E" className={styles.techIcon} /> JavaScript
                                 </li>
-                                <li className={styles.techItem}>
-                                    <SiHtml5 color="#E34F26" className={styles.techIcon} /> HTML/CSS
-                                </li>
                             </ul>
                         </div>
 
-                        {/* Frameworks/Libs Section */}
+                        {/* Frameworks & Web Section */}
                         <div className={styles.categoryColumn}>
-                            <h3 className={styles.categoryTitle}>Frameworks/Libs</h3>
+                            <h3 className={styles.categoryTitle}>Frameworks &amp; Web</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <SiReact color="#61DAFB" className={styles.techIcon} /> React / Native
+                                    <SiReact color="#61DAFB" className={styles.techIcon} /> React / React Native
                                 </li>
                                 <li className={styles.techItem}>
                                     <SiFastapi color="#009688" className={styles.techIcon} /> FastAPI
@@ -58,23 +55,32 @@ const TechStack: React.FC = () => {
                                     <SiFlask color="#FFFFFF" className={styles.techIcon} /> Flask
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiNumpy color="#4DABCF" className={styles.techIcon} /> NumPy
-                                </li>
-                                <li className={styles.techItem}>
-                                    <FaBrain color="#B8FF00" className={styles.techIcon} /> Transformers / CNNs
+                                    <SiHtml5 color="#E34F26" className={styles.techIcon} /> HTML/CSS
                                 </li>
                             </ul>
                         </div>
 
-                        {/* Databases Section */}
+                        {/* Data & ML Section */}
                         <div className={styles.categoryColumn}>
-                            <h3 className={styles.categoryTitle}>Databases</h3>
+                            <h3 className={styles.categoryTitle}>Data &amp; ML</h3>
                             <ul className={styles.techList}>
                                 <li className={styles.techItem}>
-                                    <SiPostgresql color="#336791" className={styles.techIcon} /> PostgreSQL
+                                    <SiNumpy color="#4DABCF" className={styles.techIcon} /> NumPy
                                 </li>
                                 <li className={styles.techItem}>
-                                    <SiMysql color="#4479A1" className={styles.techIcon} /> MySQL
+                                    <FaBrain color="#B8FF00" className={styles.techIcon} /> NLP
+                                </li>
+                                <li className={styles.techItem}>
+                                    <FaBrain color="#B8FF00" className={styles.techIcon} /> LLM APIs
+                                </li>
+                                <li className={styles.techItem}>
+                                    <FaBrain color="#B8FF00" className={styles.techIcon} /> Prompt Design
+                                </li>
+                                <li className={styles.techItem}>
+                                    <FaBrain color="#B8FF00" className={styles.techIcon} /> Deep Learning (Transformers, CNNs)
+                                </li>
+                                <li className={styles.techItem}>
+                                    <FaGlobe color="#00F0FF" className={styles.techIcon} /> Web Scraping
                                 </li>
                             </ul>
                         </div>
@@ -94,6 +100,15 @@ const TechStack: React.FC = () => {
                                 </li>
                                 <li className={styles.techItem}>
                                     <SiGithubactions color="#2088FF" className={styles.techIcon} /> CI/CD
+                                </li>
+                                <li className={styles.techItem}>
+                                    <SiPostgresql color="#336791" className={styles.techIcon} /> PostgreSQL
+                                </li>
+                                <li className={styles.techItem}>
+                                    <SiMysql color="#4479A1" className={styles.techIcon} /> MySQL
+                                </li>
+                                <li className={styles.techItem}>
+                                    <FaDatabase color="#00F0FF" className={styles.techIcon} /> Document Databases
                                 </li>
                             </ul>
                         </div>

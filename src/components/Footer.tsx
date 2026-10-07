@@ -20,11 +20,15 @@ const Footer: React.FC = () => {
                         </div>
                         <div className={styles.contactItem}>
                             <a href="tel:+85290533352" className={styles.link}>
-                                +(852) 9053 3352
+                                +852 9053 3352
+                            </a>
+                        </div>
+                        <div className={styles.contactItem}>
+                            <a href="https://oaksoeoo.tech" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                                oaksoeoo.tech
                             </a>
                         </div>
                         <div className={styles.socials}>
-                            {/* Make sure we instruct to test these links as per user requirements */}
                             <a href="https://linkedin.com/in/osoo" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>LinkedIn</a>
                             <span className={styles.dot}>&bull;</span>
                             <a href="https://github.com/oak-23" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>GitHub</a>

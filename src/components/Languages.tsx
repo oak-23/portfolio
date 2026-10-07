@@ -9,11 +9,10 @@ interface LanguageData {
 }
 
 const languagesData: LanguageData[] = [
-    { name: 'Burmese', level: 'Native', fill: 100 },
     { name: 'English', level: 'Fluent', fill: 100 },
+    { name: 'Burmese', level: 'Native', fill: 100 },
     { name: 'Japanese', level: 'Conversational', fill: 55 },
     { name: 'Korean', level: 'Conversational', fill: 45 },
-    { name: 'Mandarin', level: 'Basic', fill: 20 },
 ];
 
 const Languages: React.FC = () => {

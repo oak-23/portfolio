@@ -56,6 +56,12 @@
     transition: color 0.3s ease;
 }
 
+.cardDate {
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+}
+
 .cardDesc {
     font-size: 0.95rem;
     color: var(--color-text-muted);

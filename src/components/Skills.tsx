@@ -16,13 +16,16 @@ const Skills: React.FC<SkillsProps> = ({ activeSkills }) => {
                 { id: 'ts', name: 'TypeScript / JavaScript' },
                 { id: 'react', name: 'React / React Native' },
                 { id: 'fastapi', name: 'FastAPI / Flask / Node.js' },
+                { id: 'html', name: 'HTML / CSS' },
             ]
         },
         {
             title: "Data & ML",
             items: [
                 { id: 'nlp', name: 'NLP' },
-                { id: 'llm', name: 'LLM Tooling' },
+                { id: 'llm', name: 'LLM APIs' },
+                { id: 'prompt', name: 'Prompt Design' },
+                { id: 'scraping', name: 'Web Scraping' },
                 { id: 'dl', name: 'Deep Learning (Transformers, CNNs)' },
                 { id: 'numpy', name: 'NumPy' },
                 { id: 'backtest', name: 'Backtesting' },
@@ -32,7 +35,9 @@ const Skills: React.FC<SkillsProps> = ({ activeSkills }) => {
         {
             title: "Engineering & Professional",
             items: [
-                { id: 'docker', name: 'Docker / AWS' },
+                { id: 'docker', name: 'Docker' },
+                { id: 'aws', name: 'AWS (incl. Bedrock)' },
+                { id: 'databases', name: 'PostgreSQL / MySQL / Document Databases' },
                 { id: 'cicd', name: 'Git & CI/CD' },
                 { id: 'product', name: 'Product Ideation & Development' },
                 { id: 'process', name: 'System & Process Design' },

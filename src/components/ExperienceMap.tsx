@@ -9,12 +9,12 @@ const ExperienceMap: React.FC = () => {
 
     // Mapping projects to the skills they use
     const projectSkillsMap: Record<string, string[]> = {
-        'backtest': ['python', 'cpp', 'sql', 'numpy', 'backtest', 'stats', 'docker', 'cicd'],
-        'internal-ops': ['python', 'sql', 'ts', 'react', 'fastapi', 'docker', 'product', 'process', 'collaboration'],
+        'backtest': ['python', 'cpp', 'sql', 'databases', 'numpy', 'backtest', 'stats', 'docker', 'cicd'],
+        'internal-ops': ['python', 'sql', 'databases', 'ts', 'react', 'fastapi', 'docker', 'product', 'process', 'collaboration'],
         'auth': ['python', 'sql', 'fastapi', 'docker', 'cicd', 'process'],
         'humanities-nlp': ['python', 'nlp', 'llm', 'numpy', 'stats', 'report', 'collaboration'],
-        'igem-ml': ['python', 'dl', 'nlp', 'numpy', 'ts', 'react', 'collaboration'],
-        'exposai': ['python', 'ts', 'react', 'llm', 'docker', 'product', 'collaboration'],
+        'igem-ml': ['python', 'dl', 'nlp', 'numpy', 'collaboration', 'public'],
+        'exposai': ['python', 'llm', 'aws', 'product', 'collaboration'],
         'cops': ['cpp', 'process', 'product', 'report', 'collaboration', 'public'],
         'pwc': ['process', 'pitching', 'report', 'product', 'public'],
         'hkgcc': ['process', 'pitching', 'product', 'report', 'public']

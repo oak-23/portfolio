@@ -12,13 +12,13 @@ const Competitions: React.FC = () => {
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>Global Sustainability Challenge</h4>
-                                <p className={styles.subtitle}>2nd Prize at the Regional Finals (Stanford&ndash;HKUST&ndash;IIT Bombay partnership) for COPS.</p>
+                                <p className={styles.subtitle}>2nd Prize at the Regional Finals for COPS, an IoT water-filtration prototype.</p>
                             </div>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.content}>
                                 <h4 className={styles.title}>Hong Kong Techathon+</h4>
-                                <p className={styles.subtitle}>Presented COPS, the IoT water-filtration prototype, at the finals.</p>
+                                <p className={styles.subtitle}>Presented COPS, an Arduino-based IoT water-filtration prototype.</p>
                             </div>
                         </div>
                         <div className={styles.card}>
